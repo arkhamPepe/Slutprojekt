@@ -1,5 +1,52 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial;
 }
 
+body{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fa/Playa_del_Rinc%C3%B3n_de_la_Victoria.jpg);
+}
+
+section{
+    width: 960px;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+#wallpaper{
+    width: 100%;
+}
+
+nav{
+    position: fixed;
+    background-color: deepskyblue;
+    width: 100%;
+    padding: 80px 0 0 0;
+}
+
+button{
+    width: 50px;
+    height: 20px;
+
+}
+
+ul{
+    position: relative;
+
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+li{
+    width: 50px;
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#search-bar{
+    float: right;
+    margin: -30px 10px 0 0;
+}
