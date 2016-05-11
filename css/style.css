@@ -4,8 +4,17 @@
     font-family: Arial;
 }
 
-body{
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/f/fa/Playa_del_Rinc%C3%B3n_de_la_Victoria.jpg);
+body {
+    background: url(https://upload.wikimedia.org/wikipedia/commons/f/fa/Playa_del_Rinc%C3%B3n_de_la_Victoria.jpg) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header{
+    height: 20%;
+    background: url(https://i.ytimg.com/vi/NruZ5vzRhQ4/maxresdefault.jpg);
 }
 
 section{
